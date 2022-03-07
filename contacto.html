@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria-Practica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header header-contacto">
+        <div class="header-contenido contenedor">
+            <div class="barra">
+
+                <div class="barra-logo">
+                    <img src="build/img/logo.svg" alt="logo imagen">
+                </div>
+                <nav class="navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a class="activo" href="contacto.html">Contacto</a>
+                </nav>
+
+            </div><!--barra-->
+
+            <div class="header-texto">
+                <h1 class="header-titulo">Disfruta una deliosa taza de café</h1>
+            </div><!--header texto-->
+
+        </div><!--Contenido header-->
+
+    </header>
+
+    <main class="contenido-principal contenedor bg-blanco">
+
+        <h2><span>reserva tu</span>mesa</h2>
+
+        <div class="formulario-contenido">
+            <form class="formulario">
+                <div class="campo">
+                    <label  for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre">
+                </div><!--campo-->
+
+                <div class="campo">
+                    <label  for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Tu Email">
+                </div><!--campo-->
+
+                <div class="campo">
+                    <label for="personas">Numero de personas:</label>
+                    <select id="personas">
+                        <option disabled selected>-- Selecione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="mas">+4</option>
+                    </select>
+                </div><!--campo-->
+
+                <div class="campo">
+                    <label  for="hora">Hora:</label>
+                    <input type="time" id="hora">
+                </div><!--campo-->
+
+                <div class="campo">
+                    <label  for="fecha">Fecha:</label>
+                    <input type="date" id="fecha">
+                </div><!--campo-->
+
+                <div class="campo">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+
+        
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-grid contenedor bg-blanco">
+            <div class="footer-box">
+                <h3>Ubicación</h3>
+                <p>Nicolas Cópernico, 6699</p>
+                <p>Viña del Mar, Valparaíso</p>
+            </div><!--Footer box-->
+
+            <div class="footer-box">
+                <h3>Reservacion</h3>
+                <p>Tel. 569-8883-8821</p>
+                <a href="tel:659999211">Llamar</a>
+            </div><!--Footer box-->
+
+            <div class="footer-box">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie-Sab: 09:00 - 23:00</p>
+                <p>Domingo: Cerrado</p>
+            </div><!--Footer box-->
+        </div>
+        <p class="copyright">Todos los Derechos Reservados, La Caferetiá &copy;</p>
+    </footer>
+</body>
+</html>
